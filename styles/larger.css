@@ -1,0 +1,49 @@
+@media screen and (min-width: 600px) {
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    background: #333;
+  }
+
+  nav a {
+    border: none;
+    padding: 1rem 2rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .student-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .about,
+  .photo {
+    margin-bottom: 0;
+  }
+
+  .courses {
+    grid-column: 1 / -1;
+  }
+
+  .filters {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #courseList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #courseList .course {
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+}

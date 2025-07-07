@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+header img {
+  height: 40px;
+}
+
+#menu {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  background: #444;
+}
+
+nav a {
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+
+nav a:hover,
+nav a.active {
+  background: #222;
+}
+
+nav.show {
+  display: flex;
+}
+
+main {
+  padding: 1rem;
+}
+
+.about, .photo, .courses {
+  margin-bottom: 2rem;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.about img,
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.filters button {
+  padding: 0.5rem 1rem;
+}
+
+#courseList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#courseList .course {
+  background: #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+#courseList .completed {
+  background: #b3e6b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+footer .social a {
+  margin: 0 0.5rem;
+}
+
+footer img {
+  height: 24px;
+}
